@@ -23,9 +23,10 @@ class Home extends StatelessWidget {
           ],
         ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CommonButton('保存', () {}),
-            CommonButton('CSV出力', () {}),
+            MyCommonButton(const Text("保存"), () {}),
+            MyCommonButton(const Text('CSV出力'), () {}),
           ],
         )
       ]),
