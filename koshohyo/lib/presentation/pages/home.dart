@@ -25,11 +25,27 @@ class Home extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            MyCommonButton(const Text("保存"), () {}),
-            MyCommonButton(const Text('CSV出力'), () {}),
+            MyCommonButton(
+              onPress: () => saveDate(),
+              child: const Text("保存"),
+            ),
+            MyCommonButton(
+              onPress: () => exportCsv(),
+              child: const Text('CSV出力'),
+            ),
           ],
         )
       ]),
     );
+  }
+
+  void saveDate() {
+    // Save the date
+    return;
+  }
+
+  void exportCsv() {
+    // Export the csv file
+    return;
   }
 }
