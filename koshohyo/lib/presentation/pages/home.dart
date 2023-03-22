@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:koshohyo/presentation/widget/button.dart';
+import 'package:koshohyo/presentation/widgets/button.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
